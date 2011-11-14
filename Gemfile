@@ -34,3 +34,8 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+
+group :production do
+  gem 'therubyracer', '0.9.9' # you will need this too
+  gem 'pg'
+end
